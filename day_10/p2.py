@@ -1,4 +1,4 @@
-with open("input.txt") as f:
+with open("test.txt") as f:
     lines = f.read().strip().splitlines()
     
 data = [line.split(" ") for line in lines]
